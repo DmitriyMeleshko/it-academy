@@ -1,0 +1,23 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+.stars {
+   background: url(../img/star0.png) no-repeat;
+   width: 76px;
+   height: 78px;
+}
+
+.stars:hover, .stars:hover ~ div {
+   background: url(../img/star1.png) no-repeat;
+   width: 76px;
+   height: 78px;
+}
+
+.content {
+   display: flex;
+   flex-direction: row-reverse;
+   float: left;
+}
+
