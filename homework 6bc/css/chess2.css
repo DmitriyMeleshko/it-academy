@@ -1,0 +1,22 @@
+.CHESS tr:nth-child(odd) td:nth-child(even) {
+   background: #000;
+}
+
+.CHESS tr:nth-child(even) td:nth-child(odd) {
+   background: #000;
+}
+
+.CHESS tr:last-child td:nth-child(even),
+.CHESS tr:last-child td:nth-child(odd),
+.CHESS tr:first-child td:nth-child(odd),
+.CHESS tr:first-child td:nth-child(even),
+.CHESS tr:nth-child(odd) td:first-child,
+.CHESS tr:nth-child(even) td:first-child,
+.CHESS tr:nth-child(odd) td:last-child,
+.CHESS tr:nth-child(even) td:last-child {
+   width: 20px;
+   height: 20px;
+   background-color: aquamarine;
+}
+
+
