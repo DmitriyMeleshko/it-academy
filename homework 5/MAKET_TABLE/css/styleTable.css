@@ -1,0 +1,44 @@
+.headFoot {
+   font-family: sans-serif;
+   font-size: 50px;
+   color: blue;
+   background-color: aqua;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+table {
+   width: 100%;
+}
+
+.menu {
+   width: 170px;
+   padding: 0 0 0 10px;
+   background-color: rgba(235, 254, 137, 0.778);
+   vertical-align: top;
+}
+
+.content {
+   background: url(../img/ball.png) repeat-y;
+   background-position: right;
+}
+
+h2 {
+   text-align: center;
+}
+
+img {
+   float: left;
+   width: 300px;
+   margin: 10px;
+}
+
+.firstLorem {
+   margin-top: 26px;
+   margin-left: 10px;
+}
+
+.secondLorem {
+   margin-left: 10px;
+}
+

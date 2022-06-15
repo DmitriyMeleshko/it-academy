@@ -1,0 +1,51 @@
+.header, .footer {
+   font-family: sans-serif;
+   font-size: 50px;
+   color: blue;
+   background-color: aqua;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.block {
+   display: flex;
+}
+
+.menu {
+   float: left;
+   padding: 0 0 0 10px;
+   background: url(../img/backmenu.png) repeat-y;
+   padding-right: 20px;
+}
+
+.content {
+   background: url(../img/ball.png) repeat-y;
+   background-position: right;
+}
+
+.empty {
+   clear: both;
+}
+
+.football {
+   text-align: center;
+   font-weight: 700;
+   font-size: 30px;
+   margin-top: 20px;
+}
+
+img {
+   float: left;
+   width: 300px;
+   margin: 10px 10px 10px 20px;
+}
+
+.firstLorem {
+   margin-top: 36px;
+   margin-left: 20px;
+}
+
+.secondLorem {
+   margin-left: 20px;
+}
+
