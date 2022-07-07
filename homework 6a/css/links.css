@@ -1,0 +1,77 @@
+/*Общие*/
+
+a {
+   color: rgb(35, 155, 35);
+}
+
+a:hover {
+   color: red;
+}
+
+/*Таблица*/
+
+.table td {
+   border-right: 4px solid red;
+   padding: 0 5px;
+}
+
+tr > td:last-child {
+   border-right: 0px solid #FFF;
+   padding: 0 5px;
+}
+
+/*Список*/
+
+ul {
+   margin: 0;
+   padding: 1px;
+}
+
+li:nth-child(odd) {
+   display: inline;
+   margin-right: 5px;
+   border-right: 4px solid rgb(255, 0, 0);
+   padding: 5px;
+}
+
+li:nth-child(even) {
+   display: inline;
+   margin-right: 5px;
+   border-right: 4px solid rgb(255, 0, 0);
+   padding: 5px;
+}
+
+li:nth-child(5) {
+   display: inline;
+   margin-right: 5px;
+   border-right: 4px solid rgba(255, 0, 0, 0);
+   padding: 5px;
+}
+
+/*Для инлайн блоков*/
+
+.inline-block div {
+   display: inline-block;
+}
+
+.inline-block div::after {
+   content: '';
+   border-right: 4px solid red;
+   padding: 0 10px 0 0;
+}
+
+.inline-block div:last-of-type::after{
+   border-right: 0px solid #FFF;
+}
+
+/*Для инлайн*/
+
+.inline a::before {
+   content: '\2757';
+   padding-right: 5px;
+}
+
+.inline a:first-child:before {
+   content: '';
+}
+
